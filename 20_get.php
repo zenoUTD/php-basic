@@ -12,7 +12,7 @@ other sensitive information to be sent to the server
 */
 
 
-   if( $_GET["name"] || $_GET["age"] ) {
+   if( isset($_GET["name"]) || isset($_GET["age"]) ) {
       echo "Welcome ". $_GET['name']. "<br />";
       echo "You are ". $_GET['age']. " years old.";
       
