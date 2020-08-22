@@ -13,9 +13,9 @@ $rem = $num1%$num2;         // 0 - Modulus Operator and remainder of after an in
 
 $div = $num1/$num2;         // 2 - Divide numerator by de-numerator
 
---$name; // pre increment
+--$name; // pre decrement
 
-++$name; // pre decrement
+++$name; // pre increment
 
 
 $num++;     // post increment 
